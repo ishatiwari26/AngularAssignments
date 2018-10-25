@@ -71,6 +71,7 @@ app.controller('mainCtrl', function($scope, $http) {
 
 	};
 });
+
 app.filter('genderFilter', [function () {
     return function (customer) {
        if (customer.customerGender== "Male") {
@@ -82,3 +83,18 @@ app.filter('genderFilter', [function () {
 
     };
 }]);
+/*var appDiv= angular.module('myApp', []);
+appDiv.directive('elementWithStyle', function () {
+    return {
+        'restrict': 'EA',
+        'scope': {},
+        'controller': function ($scope) {
+            $scope.someStyle = 'Cyan';
+            $scope.someFont = '65px';
+            $scope.textAlign = 'center';
+            
+            $scope.someFunc = function () { $scope.someStyle = '#804100' };
+        },
+        'template': '<div style="background: {{someStyle}}; font-size: {{someFont}}; text-align: {{textAlign}}" ng-click="someFunc()"> click me to change colors </div>'
+    }
+});*/

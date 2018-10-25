@@ -4,9 +4,10 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
+<title>About Us</title>
+<link rel="stylesheet" href="css/style.css" />
 </head>
-<style>
+<!-- <style>
   .bg-1 { 
       background-color: #1abc9c; /* Green */
       color: #ffffff;
@@ -19,7 +20,7 @@
       background-color: #fff; /* White */
       color: #555555;
   }
-  </style>
+  </style> -->
 <body>
 <div class="container-fluid bg-1 text-center">
   <h3>Who Am I?</h3>
